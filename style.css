@@ -1,0 +1,692 @@
+/* Universelt */
+
+section {
+	max-width: 1200px;
+	margin: auto;
+}
+
+h1 {
+	font-family: 'Contrail One', cursive;
+	color: #cfa4d7;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2rem;
+	margin-bottom: 0px;
+	margin-left: 0.5em;
+}
+
+h2 {
+	text-align: center;
+	color: black;
+	font-family: 'Contrail One', cursive;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 3em;
+	background-image: url(billeder/stroke2.png);
+	background-size: 30%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 2rem;
+}
+
+h3 {
+	font-family: 'Contrail One', cursive;
+	color: #cfa4d7;
+	font-size: 1.2rem;
+	margin-top: 5rem;
+	margin: 2rem;
+	margin-bottom: 0;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	font-size: 1rem;
+	overflow: visible;
+}
+
+h4 a {
+	font-family: 'Lato', sans-serif;
+	margin-top: 0.5rem;
+	text-transform: none;
+	background-image: url(billeder/stroke_cirkel.png);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 1rem;
+}
+
+h4 a:link {
+	font-family: 'Lato', sans-serif;
+	text-transform: none;
+	font-size: 1rem;
+	font-weight: 700;
+	color: #cfa4d7;
+}
+
+
+h4 a:visited {
+
+	font-style: normal;
+	font-weight: 700;
+	color: #cfa4d7;
+}
+
+
+h4 a:hover {
+
+	font-style: normal;
+	font-weight: 700;
+	color: dimgrey;
+}
+
+
+h4 a:active {
+
+	font-style: normal;
+	font-weight: 700;
+
+	color: dimgrey;
+}
+
+body {
+	margin: 0px;
+}
+
+img {
+	width: 100%;
+}
+
+
+.sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	flex-basis: 200px;
+	flex-grow: 1;
+	margin: 2rem;
+	margin-top: 0;
+}
+
+.column_billede {
+	flex-basis: 200px;
+	flex-grow: 1;
+	color: white;
+	position: relative;
+	text-align: center;
+	margin: 2rem;
+}
+
+
+
+p {
+	color: dimgrey;
+	font-family: 'Lato', sans-serif;
+	line-height: 2;
+	font-size: 1rem;
+}
+
+
+a {
+	font-family: 'Contrail One', cursive;
+	font-weight: 100;
+	text-decoration: none;
+	font-size: 10pt;
+	text-transform: uppercase;
+}
+
+p a:link {
+	font-family: 'Lato', sans-serif;
+	text-transform: none;
+	font-size: 1rem;
+	font-weight: 700;
+	color: dimgrey;
+}
+
+
+p a:visited {
+
+	font-style: normal;
+	font-weight: 700;
+	color: dimgray;
+}
+
+
+p a:hover {
+
+	font-style: normal;
+	font-weight: 700;
+	color: #cfa4d7;
+}
+
+
+p a:active {
+
+	font-style: normal;
+	font-weight: 700;
+
+	color: #dadbfc;
+}
+
+/* Tilbageknap */
+
+.tilbage {
+	position: fixed;
+	top: 5vw;
+	left: 3vw;
+	width: 5%;
+}
+
+/* Header */
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+header nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	z-index: 100000000;
+}
+
+header nav a {
+	color: white;
+	margin: 2px;
+	background-color: rgba(0, 0, 0, 0.85);
+	background-size: cover;
+	align-self: flex-end;
+	padding: 2px;
+	font-size: 1.2em;
+
+}
+
+
+header nav a:link {
+	font-weight: 100;
+	color: white;
+}
+
+
+header nav a:visited {
+
+	font-style: normal;
+	font-weight: 100;
+	color: white;
+}
+
+
+header nav a:hover {
+
+	font-style: normal;
+	font-weight: 500;
+	color: #cfa4d7;
+}
+
+
+header nav a:active {
+
+	font-style: normal;
+	font-weight: 100;
+
+	color: #dadbfc;
+}
+
+/* Dokumentation og værktøjer */
+.liste {
+	flex-basis: 300px;
+	flex-grow: 1;
+	margin: 2rem;
+	margin-top: 0;
+	float: left;
+}
+
+
+/* Forside */
+
+.forside {
+	text-align: center;
+}
+
+.forside a {
+	z-index: 3;
+	margin-top: -35vw;
+	font-size: 3rem;
+	font-family: 'Permanent Marker', cursive;
+	color: rgba(0, 0, 0, 0.66);
+}
+
+/* Portfolio */
+
+#portfolio {
+	margin-top: 5rem;
+}
+
+#portfolio .sectionwrapper {
+	justify-content: center;
+}
+
+.column_portfolio {
+	flex-basis: 200px;
+	flex-grow: 1;
+	max-width: 350px;
+	margin: 1rem;
+}
+
+#portfolio img:hover {
+	transition: .5s ease;
+	transform: scale(1.07);
+}
+
+/* Webdesign */
+
+.billede_webdesign {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.centered a:link {
+	font-size: 2.5rem;
+	font-weight: 100;
+	color: white;
+	background-color: #cfa4d7;
+}
+
+
+.centered a:visited {
+
+	font-style: normal;
+	font-weight: 100;
+	color: white;
+}
+
+
+.centered a:hover {
+
+	font-style: normal;
+	font-weight: 500;
+	color: white;
+}
+
+
+.centered a:active {
+
+	font-style: normal;
+	font-weight: 100;
+
+	color: #dadbfc;
+}
+
+
+#webdesign {
+	border-bottom: 1px;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-bottom: 20px;
+	border-color: dimgrey;
+	margin-bottom: 5vw;
+}
+
+.billede_webdesign {
+	filter: opacity(80%);
+}
+
+.billede_webdesign:hover {
+	transition: 0.5s ease-out;
+	filter: opacity(100%);
+}
+
+/* Indhold */
+
+video {
+	width: 100%;
+}
+
+
+.center {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+h3.center {
+	text-align: center;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	color: dimgrey;
+}
+
+#indhold {
+	border-bottom: 1px;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-bottom: 20px;
+	border-color: dimgrey;
+	background-color: white;
+	padding: 2rem;
+	margin-bottom: 5rem;
+}
+
+.billede_column {
+	filter: opacity(80%);
+}
+
+.billede_column:hover {
+	transition: 0.5s ease-out;
+	filter: opacity(100%);
+}
+
+.billede_column {
+	flex-basis: 200px;
+	flex-grow: 1;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+/* Animation */
+
+p.bold {
+	font-weight: 700;
+	color: #b889c1;
+
+}
+
+.rainbow_column {
+	flex-basis: 200px;
+	flex-grow: 1;
+	filter: opacity(80%);
+	align-content: center;
+}
+
+.rainbow_column p {
+	max-width: 80%;
+	margin: auto;
+}
+
+.rainbow_column img {
+	width: 80%;
+}
+
+.rainbow_column:hover {
+	transition: 0.5s ease-out;
+	filter: opacity(100%);
+	transform: scale(1.1);
+}
+
+
+#animation {
+	border-bottom: 1px;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-bottom: 20px;
+	border-color: dimgrey;
+	margin-bottom: 5rem;
+}
+
+
+/* UX */
+
+h4.temadok {
+	text-align: center;
+}
+
+.ux_prototype {
+	flex-basis: 300px;
+	align-content: center;
+	text-align: center;
+	color: black;
+	position: relative;
+	opacity: 0.8;
+}
+
+.ux_middle {
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.ux_prototype:hover .ux_middle {
+	transition: 0.3s ease-out;
+	opacity: 1;
+}
+
+.ux_prototype:hover {
+	transition: 0.5s ease-out;
+	opacity: 1;
+	transform: scale(1.025);
+}
+
+
+#ux img {
+	width: 80%;
+}
+
+
+
+#ux .sectionwrapper {
+	justify-content: center;
+}
+
+
+#ux {
+	border-bottom: 1px;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-bottom: 20px;
+	border-color: dimgrey;
+	margin-bottom: 5rem;
+}
+
+
+.ux_middle a:link {
+	font-size: 2rem;
+	font-weight: 100;
+	color: white;
+	background-color: #cfa4d7;
+}
+
+
+.ux_middle a:visited {
+
+	font-style: normal;
+	font-weight: 100;
+	color: white;
+}
+
+
+.ux_middle a:hover {
+
+	font-style: normal;
+	font-weight: 500;
+	color: white;
+}
+
+
+.ux_middle a:active {
+
+	font-style: normal;
+	font-weight: 100;
+
+	color: #dadbfc;
+}
+
+/* Om */
+
+#om .sectionwrapper img {
+	width: 60%;
+	margin-top: 1.5vw;
+}
+
+#om .column {
+	flex-basis: 200px;
+	flex-grow: 1;
+	margin: 20px;
+}
+
+#om .column_mig {
+	flex-basis: 200px;
+	flex-grow: 1;
+	margin: 20px;
+	text-align: center;
+}
+
+#om {
+	border-bottom: 1px;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-bottom: 20px;
+	border-color: dimgray;
+}
+
+#om .sectionwrapper {
+	margin-top: 2rem;
+	max-width: 70vw;
+	margin: auto;
+}
+
+
+
+/* Desktop mediaquery*/
+
+@media only screen and (min-width:700px) {
+
+	/* Desktop forside */
+
+	#forside {
+		text-align: center;
+	}
+
+	#forside img {
+		max-width: 60vw;
+		position: relative;
+	}
+
+	.forside a {
+		right: 10vw;
+		bottom: 10vw;
+		margin-bottom: 0;
+		font-size: 4rem;
+		font-family: 'Permanent Marker', cursive;
+		color: rgba(0, 0, 0, 0.66);
+		font-weight: 400;
+		font-style: normal;
+		position: absolute;
+	}
+
+	/* Desktop generelt */
+
+	header {
+		background: none;
+		z-index: 100;
+	}
+
+	header nav {
+		flex-direction: row;
+		display: flex;
+		background: black;
+		padding: 5px;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		justify-content: flex-end;
+	}
+
+	header nav a {
+		padding: 0 0.5rem 0;
+		font-size: 1.2rem;
+		border-left: 0px;
+		background: none;
+	}
+
+	nav a:hover {
+
+		font-style: normal;
+		font-weight: 500;
+		color: white;
+	}
+
+	header nav a:last-child {
+		border-right: none;
+	}
+
+
+
+	h1 {
+		top: 0;
+		font-size: 2.5rem;
+	}
+
+
+	h2 {
+		font-size: 2.5rem;
+
+	}
+
+	h3 {
+		font-size: 1.8rem;
+		margin-top: 4rem;
+	}
+
+
+	/* Portfolio desktop */
+
+	#portfolio {
+		margin-top: 5rem;
+		background-image: url(billeder/portfolio_baggrund.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	/* Animationer Desktop */
+
+	.rainbow:hover {
+		transition: 0.5s ease-out;
+		transform: scale(1.8) translateX(-10vw);
+	}
+
+
+	.hackman:hover {
+		transition: 0.5s ease-out;
+		transform: scale(2) translateX(-10vw);
+	}
+
+
+
+	/* UX Desktop */
+
+
+	section#ux {
+		max-width: 70vw;
+	}
+
+}
