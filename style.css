@@ -169,6 +169,7 @@ p a:active {
 	top: 5vw;
 	left: 3vw;
 	max-width: 3rem;
+	overflow: visible;
 }
 
 /* Header */
