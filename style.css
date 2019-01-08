@@ -400,7 +400,6 @@ p.bold {
 }
 
 .rainbow_column {
-	margin: auto;
 	flex-basis: 300px;
 	text-align: center;
 	color: black;
