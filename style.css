@@ -5,16 +5,6 @@ section {
 	margin: auto;
 }
 
-h1 {
-	font-family: 'Contrail One', cursive;
-	color: #cfa4d7;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 2rem;
-	margin-bottom: 0px;
-	margin-left: 0.5em;
-}
-
 h2 {
 	text-align: center;
 	color: black;
@@ -135,7 +125,7 @@ a {
 	font-family: 'Contrail One', cursive;
 	font-weight: 100;
 	text-decoration: none;
-	font-size: 10pt;
+	font-size: 10rem;
 	text-transform: uppercase;
 }
 
@@ -203,7 +193,7 @@ header nav a {
 	background-size: cover;
 	align-self: flex-end;
 	padding: 2px;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 
 }
 
@@ -256,7 +246,6 @@ header nav a:active {
 
 .forside a {
 	z-index: 3;
-	margin-top: -35vw;
 	font-size: 3rem;
 	font-family: 'Permanent Marker', cursive;
 	color: rgba(0, 0, 0, 0.66);
@@ -411,10 +400,12 @@ p.bold {
 }
 
 .rainbow_column {
-	flex-basis: 200px;
-	flex-grow: 1;
-	filter: opacity(80%);
-	align-content: center;
+	margin: auto;
+	flex-basis: 300px;
+	text-align: center;
+	color: black;
+	position: relative;
+	opacity: 0.8;
 }
 
 .rainbow_column p {
@@ -424,6 +415,7 @@ p.bold {
 
 .rainbow_column img {
 	width: 80%;
+	text-align: center;
 }
 
 .rainbow_column:hover {
@@ -442,6 +434,10 @@ p.bold {
 	padding-bottom: 20px;
 	border-color: dimgrey;
 	margin-bottom: 5rem;
+}
+
+.column embed {
+	overflow: hidden;
 }
 
 
@@ -539,7 +535,7 @@ h4.temadok {
 /* Om */
 
 #om .sectionwrapper img {
-	width: 60%;
+	max-width: 308px;
 	margin-top: 1.5vw;
 }
 
@@ -552,8 +548,8 @@ h4.temadok {
 #om .column_mig {
 	flex-basis: 200px;
 	flex-grow: 1;
-	margin: 20px;
 	text-align: center;
+
 }
 
 #om {
@@ -568,7 +564,7 @@ h4.temadok {
 
 #om .sectionwrapper {
 	margin-top: 2rem;
-	max-width: 70vw;
+	max-width: 50rem;
 	margin: auto;
 }
 
