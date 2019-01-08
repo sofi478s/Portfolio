@@ -168,7 +168,7 @@ p a:active {
 	position: fixed;
 	top: 5vw;
 	left: 3vw;
-	width: 5%;
+	max-width: 3rem;
 }
 
 /* Header */
@@ -404,7 +404,6 @@ p.bold {
 	flex-basis: 300px;
 	text-align: center;
 	color: black;
-	position: relative;
 	opacity: 0.8;
 }
 
@@ -434,10 +433,6 @@ p.bold {
 	padding-bottom: 20px;
 	border-color: dimgrey;
 	margin-bottom: 5rem;
-}
-
-.column embed {
-	overflow: hidden;
 }
 
 
@@ -573,6 +568,16 @@ h4.temadok {
 /* Desktop mediaquery*/
 
 @media only screen and (min-width:700px) {
+
+
+	/* Dekstop Tilbageknap */
+
+	.tilbage {
+		position: fixed;
+		top: 5vw;
+		left: 3vw;
+		max-width: 5rem;
+	}
 
 	/* Desktop forside */
 
