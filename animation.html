@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grundlæggende Webdesign</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+
+
+		<nav>
+			<a href="index.html">FORSIDE</a>
+			<a href="portfolio.html">PORTFOLIO</a>
+			<a href="om.html">OM</a>
+
+		</nav>
+
+	</header>
+
+	<a href="portfolio.html"> <img src="billeder/pil.png" class="tilbage" alt="Tilbage"></a>
+
+	<section id="animation">
+		<h2>Tema 03 - Grundlæggende animation</h2>
+		<h3>Ignite The Rainbow</h3>
+		<h4>// 03.03 Animationsopgave</h4>
+		<div class="sectionwrapper">
+			<div class="column">
+
+				<p>Her ses det spil, som jeg udviklede i den første del af forløbet Grundlæggende Animation. Under dette forløb har jeg lært at benytte JavaScript til animationer samt principper indenfor spiludvikling, herunder storytelling og karakterdesign.</p>
+				<p> Spillet hedder Ignite The Rainbow, og konceptet tager inspiration i hjernegymnastik - Det går nemlig ud på, at man skal tænke hurtigt og trykke på det korrekte svar vedr. stjernens farve, og ikke lade sig forvirre af, at ord og farve ikke stemmer overens.</p>
+
+				<p>
+					Spillet er indtil videre ikke færdigt, da jeg havde valgt et koncept, som var for vanskeligt for mig at kode. I dette spil er der mange forskellige stjerner, hvor facit er givet på forhånd af mig, og det skulle derfor kodes anderledes, end hvad vi fik undervisning i på det tidspunkt i forbindelse med variabler i JavaScript. Dog har jeg kodet skelettet, herunder vinder-skærm, taber-skærm samt indstillinger med musik og lydeffekter.
+
+				</p>
+
+				<p>
+					Selve designet i spillet er inspireret af den japanske kawaii-stil, lettest beskrevet som nuttethed án mas, hvor objekter får personlighed med store øjne og røde kinder, og farverne er legesyge og friske. Hovedkarakteren i spillet er regnbuen, som får flere farver, hvis man svarer rigtigt hurtigt nok. Alle elementerne er designet som vektorgrafik i Adobe Illustrator.</p>
+
+
+			</div>
+
+
+			<div class="rainbow">
+				<div class="column">
+					<embed src="http://sofiatolstrup.dk/kea/03-animation/Produktion2/" style="width:400px; height: 500px;"></div>
+			</div>
+		</div>
+
+		<div class="sectionwrapper">
+			<div class="rainbow_column">
+				<div id="vindermusik_klik"><img src="billeder/regnbue_vinder.png" alt="Vinderskærm i Ignite The Rainbow">
+					<p class="bold">Klik på billedet for at lytte.</p>
+					<p>Vinder skærm. Lyd i baggrunden er fuglefløjt.</p>
+				</div>
+			</div>
+
+
+
+			<div class="rainbow_column">
+				<div id="tabermusik_klik"><img src="billeder/regnbue_gameover.png" alt="Game Over-skærm i Ignite The Rainbow">
+					<p class="bold">Klik på billedet for at lytte.</p>
+					<p>Game Over-skærm. Lyd i baggrunden er tordenskrald og regn.</p>
+
+				</div>
+			</div>
+
+			<div class="rainbow_column"><img src="billeder/skitse_regnbue.png" alt="Skitse over Ignite The Rainbow">
+				<p>Eksempel på skitse under idégenerering.</p>
+			</div>
+
+			<div class="rainbow_column"><img src="billeder/karakterer_regnbue.png" alt="Grå regnbue">
+				<p>Regnbuen skifter farve, alt efter hvor mange point man har.</p>
+			</div>
+		</div>
+
+
+
+
+
+
+		<h3>Hackman</h3>
+		<h4>// 03.04 Projekt // <a href="https://janhol.dk/kea/03-Animation/03.05.01/" target="_blank">Dokumentationssite</a></h4>
+		<div class="sectionwrapper">
+
+			<div class="column">
+
+				<p>Dette spil er udviklet til en case, hvor NGO'en Sex og Samfund ønskede et spil til 13-15 årige for at oplyse om krænkende billeddeling. Mere specifikt er det udviklet for en underorganisation ved navn Privat Snak, hvor unge kan henvende sig anonymt.
+				</p>
+				<p>Under denne proces har vi foretaget en målgruppeanalyse og reflekteret over, hvordan spillet bedst kunne fange de unges opmærksomhed samtidig med, at det er informerende om det seriøse emne.</p>
+				<p>I gruppen havde jeg det primære ansvar for spildesignet. Jeg fik idéen til et design, som består af forskellige elementer i collage-stil og med intertekstuelle referencer til retrospillet Pacman i hhv. titlen, karakterdesignet samt lydeffekterne. I den forbindelse har jeg tegnet bl.a. karakteren Hackman på titelskærm og på spilsiden i et design, som søger at være relaterbar for de unge i udseende.</p>
+				<p>Under ferniseringen virkede vores spil meget populært, da brugerne med point-funktionen kan konkurrere om at slå high score. Dog fik vi ikke meget feedback på det informative element omkring deling af krænkende materiale. Skulle jeg videreudvikle spillet, ville jeg overveje om spillet kan blive mere informativt samtidig med at underholdningsværdien bevares.
+				</p>
+				<p>Under hele processen benyttede vi SCRUM-konceptet som metode til projektplanlægning og proccesstyring, hvilket fungerede godt til at bevare overblik og effektivitet.</p>
+			</div>
+
+			<div class="column">
+				<div class="hackman">
+					<embed src="http://sofiatolstrup.dk/hackman/" style="width:100%; height: 300px;"></div>
+			</div>
+		</div>
+
+	</section>
+
+	<audio id="musik_vinder" src="audio/levelcompleteLyd.mp3"></audio>
+
+	<audio id="musik_taber" src="audio/gameoverlyd.mp3"></audio>
+
+	<script src="javascript.js"></script>
+</body>
+
+</html>
